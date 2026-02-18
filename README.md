@@ -36,6 +36,6 @@ El contenido se organiza de la siguiente manera para facilitar su revisión:
 │   ├── Evidencias                      
 │   └── syslog/                         # Log del sistema
 │
+├── 📁 04_Forense --> https://drive.google.com/drive/folders/1qB_P0qcRgyn2aTRwgHQ40GvqC6e5halx?usp=sharing 
 │
-└── 📁 04_Maquina_Virtual/              # Entregable final
-    └── debian-final-project.ova           # MV exportada con todas las correcciones
+└── 📁 05_Maquina_Virtual/ --> https://drive.google.com/drive/folders/1v2xrGEPA5qz4A87dHX6U0_ercjLK3ofC?usp=sharing
