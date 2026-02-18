@@ -1,0 +1,32 @@
+[Mon Sep 30 10:44:30.112562 2024] [mpm_event:notice] [pid 35916:tid 35916] AH00489: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Mon Sep 30 10:44:30.112739 2024] [core:notice] [pid 35916:tid 35916] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 30 12:05:46.470124 2024] [mpm_event:notice] [pid 35916:tid 35916] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Sep 30 12:05:46.807956 2024] [mpm_event:notice] [pid 39748:tid 39748] AH00489: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Mon Sep 30 12:05:46.808161 2024] [core:notice] [pid 39748:tid 39748] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 30 12:14:27.686258 2024] [mpm_event:notice] [pid 39748:tid 39748] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon Sep 30 12:14:27.823038 2024] [mpm_prefork:notice] [pid 50136:tid 50136] AH00163: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Mon Sep 30 12:14:27.823236 2024] [core:notice] [pid 50136:tid 50136] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 30 12:14:28.431284 2024] [mpm_prefork:notice] [pid 50136:tid 50136] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Sep 30 12:14:29.230486 2024] [mpm_prefork:notice] [pid 50176:tid 50176] AH00163: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Mon Sep 30 12:14:29.230579 2024] [core:notice] [pid 50176:tid 50176] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 30 12:19:00.906952 2024] [mpm_prefork:notice] [pid 50176:tid 50176] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Sep 30 12:19:01.320537 2024] [mpm_prefork:notice] [pid 50616:tid 50616] AH00163: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Mon Sep 30 12:19:01.320607 2024] [core:notice] [pid 50616:tid 50616] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 30 12:27:50.914090 2024] [mpm_prefork:notice] [pid 50616:tid 50616] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Sep 30 15:09:52.566780 2024] [mpm_prefork:notice] [pid 608:tid 608] AH00163: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Mon Sep 30 15:09:52.570869 2024] [core:notice] [pid 608:tid 608] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 30 15:30:52.284974 2024] [mpm_prefork:notice] [pid 608:tid 608] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Sep 30 15:30:52.519696 2024] [mpm_prefork:notice] [pid 3044:tid 3044] AH00163: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Mon Sep 30 15:30:52.519824 2024] [core:notice] [pid 3044:tid 3044] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 30 15:32:42.452825 2024] [mpm_prefork:notice] [pid 3044:tid 3044] AH00170: caught SIGWINCH, shutting down gracefully
+[Mon Sep 30 15:32:42.577995 2024] [mpm_prefork:notice] [pid 3188:tid 3188] AH00163: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Mon Sep 30 15:32:42.578042 2024] [core:notice] [pid 3188:tid 3188] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 08 16:24:31.046216 2024] [mpm_prefork:notice] [pid 3188:tid 3188] AH00170: caught SIGWINCH, shutting down gracefully
+[Tue Oct 08 16:24:31.238481 2024] [mpm_prefork:notice] [pid 5990:tid 5990] AH00163: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Tue Oct 08 16:24:31.238544 2024] [core:notice] [pid 5990:tid 5990] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 08 16:43:19.045745 2024] [mpm_prefork:notice] [pid 620:tid 620] AH00163: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Tue Oct 08 16:43:19.046757 2024] [core:notice] [pid 620:tid 620] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 08 16:48:03.446108 2024] [mpm_prefork:notice] [pid 622:tid 622] AH00163: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Tue Oct 08 16:48:03.446734 2024] [core:notice] [pid 622:tid 622] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 08 17:28:38.662828 2024] [mpm_prefork:notice] [pid 648:tid 648] AH00163: Apache/2.4.62 (Debian) configured -- resuming normal operations
+[Tue Oct 08 17:28:38.663646 2024] [core:notice] [pid 648:tid 648] AH00094: Command line: '/usr/sbin/apache2'

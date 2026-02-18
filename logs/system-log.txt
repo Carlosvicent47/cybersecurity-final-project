@@ -1,0 +1,1098 @@
+Oct 08 23:28:36 debian kernel: Linux version 6.1.0-25-amd64 (debian-kernel@lists.debian.org) (gcc-12 (Debian 12.2.0-14) 12.2.0, GNU ld (GNU Binutils for Debian) 2.40) #1 SMP PREEMPT_DYNAMIC Debian 6.1.106-3 (2024-08-26)
+Oct 08 23:28:36 debian kernel: Command line: BOOT_IMAGE=/boot/vmlinuz-6.1.0-25-amd64 root=UUID=e477ca65-16ff-4c7b-b4c5-9c1649306070 ro quiet splash speakup.synth=none
+Oct 08 23:28:36 debian kernel: BIOS-provided physical RAM map:
+Oct 08 23:28:36 debian kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Oct 08 23:28:36 debian kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Oct 08 23:28:36 debian kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Oct 08 23:28:36 debian kernel: BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+Oct 08 23:28:36 debian kernel: BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+Oct 08 23:28:36 debian kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Oct 08 23:28:36 debian kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Oct 08 23:28:36 debian kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Oct 08 23:28:36 debian kernel: NX (Execute Disable) protection: active
+Oct 08 23:28:36 debian kernel: SMBIOS 2.5 present.
+Oct 08 23:28:36 debian kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Oct 08 23:28:36 debian kernel: Hypervisor detected: KVM
+Oct 08 23:28:36 debian kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Oct 08 23:28:36 debian kernel: kvm-clock: using sched offset of 6946667756916 cyclesa
+Oct 08 23:28:36 debian kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Oct 08 23:28:36 debian kernel: tsc: Detected 2803.198 MHz processor
+Oct 08 23:28:36 debian kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Oct 08 23:28:36 debian kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+Oct 08 23:28:36 debian kernel: last_pfn = 0x7fff0 max_arch_pfn = 0x400000000
+Oct 08 23:28:36 debian kernel: Disabled
+Oct 08 23:28:36 debian kernel: x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Oct 08 23:28:36 debian kernel: CPU MTRRs all blank - virtualized system.
+Oct 08 23:28:36 debian kernel: x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Oct 08 23:28:36 debian kernel: found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+Oct 08 23:28:36 debian kernel: RAMDISK: [mem 0x3116b000-0x348acfff]
+Oct 08 23:28:36 debian kernel: ACPI: Early table checksum verification disabled
+Oct 08 23:28:36 debian kernel: ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Oct 08 23:28:36 debian kernel: ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Oct 08 23:28:36 debian kernel: ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Oct 08 23:28:36 debian kernel: ACPI: DSDT 0x000000007FFF0610 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Oct 08 23:28:36 debian kernel: ACPI: FACS 0x000000007FFF0200 000040
+Oct 08 23:28:36 debian kernel: ACPI: FACS 0x000000007FFF0200 000040
+Oct 08 23:28:36 debian kernel: ACPI: APIC 0x000000007FFF0240 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Oct 08 23:28:36 debian kernel: ACPI: SSDT 0x000000007FFF02A0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Oct 08 23:28:36 debian kernel: ACPI: Reserving FACP table memory at [mem 0x7fff00f0-0x7fff01e3]
+Oct 08 23:28:36 debian kernel: ACPI: Reserving DSDT table memory at [mem 0x7fff0610-0x7fff2962]
+Oct 08 23:28:36 debian kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+Oct 08 23:28:36 debian kernel: ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+Oct 08 23:28:36 debian kernel: ACPI: Reserving APIC table memory at [mem 0x7fff0240-0x7fff029b]
+Oct 08 23:28:36 debian kernel: ACPI: Reserving SSDT table memory at [mem 0x7fff02a0-0x7fff060b]
+Oct 08 23:28:36 debian kernel: No NUMA configuration found
+Oct 08 23:28:36 debian kernel: Faking a node at [mem 0x0000000000000000-0x000000007ffeffff]
+Oct 08 23:28:36 debian kernel: NODE_DATA(0) allocated [mem 0x7ffc5000-0x7ffeffff]
+Oct 08 23:28:36 debian kernel: Zone ranges:
+Oct 08 23:28:36 debian kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Oct 08 23:28:36 debian kernel:   DMA32    [mem 0x0000000001000000-0x000000007ffeffff]
+Oct 08 23:28:36 debian kernel:   Normal   empty
+Oct 08 23:28:36 debian kernel:   Device   empty
+Oct 08 23:28:36 debian kernel: Movable zone start for each node
+Oct 08 23:28:36 debian kernel: Early memory node ranges
+Oct 08 23:28:36 debian kernel:   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Oct 08 23:28:36 debian kernel:   node   0: [mem 0x0000000000100000-0x000000007ffeffff]
+Oct 08 23:28:36 debian kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffeffff]
+Oct 08 23:28:36 debian kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+Oct 08 23:28:36 debian kernel: On node 0, zone DMA: 97 pages in unavailable ranges
+Oct 08 23:28:36 debian kernel: On node 0, zone DMA32: 16 pages in unavailable ranges
+Oct 08 23:28:36 debian kernel: ACPI: PM-Timer IO Port: 0x4008
+Oct 08 23:28:36 debian kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+Oct 08 23:28:36 debian kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 08 23:28:36 debian kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Oct 08 23:28:36 debian kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+Oct 08 23:28:36 debian kernel: smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Oct 08 23:28:36 debian kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Oct 08 23:28:36 debian kernel: PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Oct 08 23:28:36 debian kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Oct 08 23:28:36 debian kernel: PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Oct 08 23:28:36 debian kernel: [mem 0x80000000-0xfebfffff] available for PCI devices
+Oct 08 23:28:36 debian kernel: Booting paravirtualized kernel on KVM
+Oct 08 23:28:36 debian kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Oct 08 23:28:36 debian kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Oct 08 23:28:36 debian kernel: percpu: Embedded 61 pages/cpu s212992 r8192 d28672 u1048576
+Oct 08 23:28:36 debian kernel: pcpu-alloc: s212992 r8192 d28672 u1048576 alloc=1*2097152
+Oct 08 23:28:36 debian kernel: pcpu-alloc: [0] 0 1 
+Oct 08 23:28:36 debian kernel: kvm-guest: PV spinlocks enabled
+Oct 08 23:28:36 debian kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+Oct 08 23:28:36 debian kernel: Fallback order for Node 0: 0 
+Oct 08 23:28:36 debian kernel: Built 1 zonelists, mobility grouping on.  Total pages: 515824
+Oct 08 23:28:36 debian kernel: Policy zone: DMA32
+Oct 08 23:28:36 debian kernel: Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.1.0-25-amd64 root=UUID=e477ca65-16ff-4c7b-b4c5-9c1649306070 ro quiet splash speakup.synth=none
+Oct 08 23:28:36 debian kernel: Unknown kernel command line parameters "splash BOOT_IMAGE=/boot/vmlinuz-6.1.0-25-amd64", will be passed to user space.
+Oct 08 23:28:36 debian kernel: random: crng init done
+Oct 08 23:28:36 debian kernel: Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Oct 08 23:28:36 debian kernel: Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Oct 08 23:28:36 debian kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+Oct 08 23:28:36 debian kernel: Memory: 260860K/2096696K available (14342K kernel code, 2335K rwdata, 9072K rodata, 2796K init, 17396K bss, 147104K reserved, 0K cma-reserved)
+Oct 08 23:28:36 debian kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Oct 08 23:28:36 debian kernel: ftrace: allocating 40246 entries in 158 pages
+Oct 08 23:28:36 debian kernel: ftrace: allocated 158 pages with 5 groups
+Oct 08 23:28:36 debian kernel: Dynamic Preempt: voluntary
+Oct 08 23:28:36 debian kernel: rcu: Preemptible hierarchical RCU implementation.
+Oct 08 23:28:36 debian kernel: rcu:         RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+Oct 08 23:28:36 debian kernel:         Trampoline variant of Tasks RCU enabled.
+Oct 08 23:28:36 debian kernel:         Rude variant of Tasks RCU enabled.
+Oct 08 23:28:36 debian kernel:         Tracing variant of Tasks RCU enabled.
+Oct 08 23:28:36 debian kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Oct 08 23:28:36 debian kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Oct 08 23:28:36 debian kernel: NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+Oct 08 23:28:36 debian kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Oct 08 23:28:36 debian kernel: Console: colour VGA+ 80x25
+Oct 08 23:28:36 debian kernel: printk: console [tty0] enabled
+Oct 08 23:28:36 debian kernel: ACPI: Core revision 20220331
+Oct 08 23:28:36 debian kernel: APIC: Switch to symmetric I/O mode setup
+Oct 08 23:28:36 debian kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct 08 23:28:36 debian kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x28680e0a5c3, max_idle_ns: 440795346756 ns
+Oct 08 23:28:36 debian kernel: Calibrating delay loop (skipped) preset value.. 5606.39 BogoMIPS (lpj=11212792)
+Oct 08 23:28:36 debian kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Oct 08 23:28:36 debian kernel: Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Oct 08 23:28:36 debian kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Oct 08 23:28:36 debian kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on vm exit
+Oct 08 23:28:36 debian kernel: Spectre V2 : Spectre BHI mitigation: SW BHB clearing on syscall
+Oct 08 23:28:36 debian kernel: Spectre V2 : Mitigation: Enhanced / Automatic IBRS
+Oct 08 23:28:36 debian kernel: Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Oct 08 23:28:36 debian kernel: Spectre V2 : Spectre v2 / PBRSB-eIBRS: Retire a single CALL on VMEXIT
+Oct 08 23:28:36 debian kernel: RETBleed: Mitigation: Enhanced IBRS
+Oct 08 23:28:36 debian kernel: Speculative Store Bypass: Vulnerable
+Oct 08 23:28:36 debian kernel: x86/fpu: x87 FPU will use FXSAVE
+Oct 08 23:28:36 debian kernel: Freeing SMP alternatives memory: 36K
+Oct 08 23:28:36 debian kernel: pid_max: default: 32768 minimum: 301
+Oct 08 23:28:36 debian kernel: LSM: Security Framework initializing
+Oct 08 23:28:36 debian kernel: landlock: Up and running.
+Oct 08 23:28:36 debian kernel: Yama: disabled by default; enable with sysctl kernel.yama.*
+Oct 08 23:28:36 debian kernel: AppArmor: AppArmor initialized
+Oct 08 23:28:36 debian kernel: TOMOYO Linux initialized
+Oct 08 23:28:36 debian kernel: LSM support for eBPF active
+Oct 08 23:28:36 debian kernel: Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Oct 08 23:28:36 debian kernel: Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Oct 08 23:28:36 debian kernel: smpboot: CPU0: 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz (family: 0x6, model: 0x8c, stepping: 0x1)
+Oct 08 23:28:36 debian kernel: cblist_init_generic: Setting adjustable number of callback queues.
+Oct 08 23:28:36 debian kernel: cblist_init_generic: Setting shift to 1 and lim to 1.
+Oct 08 23:28:36 debian kernel: cblist_init_generic: Setting adjustable number of callback queues.
+Oct 08 23:28:36 debian kernel: cblist_init_generic: Setting shift to 1 and lim to 1.
+Oct 08 23:28:36 debian kernel: cblist_init_generic: Setting adjustable number of callback queues.
+Oct 08 23:28:36 debian kernel: cblist_init_generic: Setting shift to 1 and lim to 1.
+Oct 08 23:28:36 debian kernel: Performance Events: unsupported p6 CPU model 140 no PMU driver, software events only.
+Oct 08 23:28:36 debian kernel: signal: max sigframe size: 1440
+Oct 08 23:28:36 debian kernel: rcu: Hierarchical SRCU implementation.
+Oct 08 23:28:36 debian kernel: rcu:         Max phase no-delay instances is 1000.
+Oct 08 23:28:36 debian kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+Oct 08 23:28:36 debian kernel: smp: Bringing up secondary CPUs ...
+Oct 08 23:28:36 debian kernel: x86: Booting SMP configuration:
+Oct 08 23:28:36 debian kernel: .... node  #0, CPUs:      #1
+Oct 08 23:28:36 debian kernel: TSC synchronization [CPU#0 -> CPU#1]:
+Oct 08 23:28:36 debian kernel: Measured 43001 cycles TSC warp between CPUs, turning off TSC clock.
+Oct 08 23:28:36 debian kernel: tsc: Marking TSC unstable due to check_tsc_sync_source failed
+Oct 08 23:28:36 debian kernel: smp: Brought up 1 node, 2 CPUs
+Oct 08 23:28:36 debian kernel: smpboot: Max logical packages: 1
+Oct 08 23:28:36 debian kernel: smpboot: Total of 2 processors activated (11212.79 BogoMIPS)
+Oct 08 23:28:36 debian kernel: node 0 deferred pages initialised in 0ms
+Oct 08 23:28:36 debian kernel: devtmpfs: initialized
+Oct 08 23:28:36 debian kernel: x86/mm: Memory block size: 128MB
+Oct 08 23:28:36 debian kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Oct 08 23:28:36 debian kernel: futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+Oct 08 23:28:36 debian kernel: pinctrl core: initialized pinctrl subsystem
+Oct 08 23:28:36 debian kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Oct 08 23:28:36 debian kernel: DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+Oct 08 23:28:36 debian kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Oct 08 23:28:36 debian kernel: DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Oct 08 23:28:36 debian kernel: audit: initializing netlink subsys (disabled)
+Oct 08 23:28:36 debian kernel: thermal_sys: Registered thermal governor 'fair_share'
+Oct 08 23:28:36 debian kernel: thermal_sys: Registered thermal governor 'bang_bang'
+Oct 08 23:28:36 debian kernel: thermal_sys: Registered thermal governor 'step_wise'
+Oct 08 23:28:36 debian kernel: thermal_sys: Registered thermal governor 'user_space'
+Oct 08 23:28:36 debian kernel: thermal_sys: Registered thermal governor 'power_allocator'
+Oct 08 23:28:36 debian kernel: audit: type=2000 audit(1728429860.319:1): state=initialized audit_enabled=0 res=1
+Oct 08 23:28:36 debian kernel: cpuidle: using governor ladder
+Oct 08 23:28:36 debian kernel: cpuidle: using governor menu
+Oct 08 23:28:36 debian kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 08 23:28:36 debian kernel: PCI: Using configuration type 1 for base access
+Oct 08 23:28:36 debian kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+Oct 08 23:28:36 debian kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+Oct 08 23:28:36 debian kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+Oct 08 23:28:36 debian kernel: ACPI: Added _OSI(Module Device)
+Oct 08 23:28:36 debian kernel: ACPI: Added _OSI(Processor Device)
+Oct 08 23:28:36 debian kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 08 23:28:36 debian kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Oct 08 23:28:36 debian kernel: ACPI: 2 ACPI AML tables successfully acquired and loaded
+Oct 08 23:28:36 debian kernel: ACPI: Interpreter enabled
+Oct 08 23:28:36 debian kernel: ACPI: PM: (supports S0 S5)
+Oct 08 23:28:36 debian kernel: ACPI: Using IOAPIC for interrupt routing
+Oct 08 23:28:36 debian kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 08 23:28:36 debian kernel: PCI: Using E820 reservations for host bridge windows
+Oct 08 23:28:36 debian kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Oct 08 23:28:36 debian kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 08 23:28:36 debian kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI HPX-Type3]
+Oct 08 23:28:36 debian kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Oct 08 23:28:36 debian kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Oct 08 23:28:36 debian kernel: PCI host bridge to bus 0000:00
+Oct 08 23:28:36 debian kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Oct 08 23:28:36 debian kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Oct 08 23:28:36 debian kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Oct 08 23:28:36 debian kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfdffffff window]
+Oct 08 23:28:36 debian kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Oct 08 23:28:36 debian kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Oct 08 23:28:36 debian kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Oct 08 23:28:36 debian kernel: pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Oct 08 23:28:36 debian kernel: pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Oct 08 23:28:36 debian kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Oct 08 23:28:36 debian kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Oct 08 23:28:36 debian kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Oct 08 23:28:36 debian kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Oct 08 23:28:36 debian kernel: pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+Oct 08 23:28:36 debian kernel: pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+Oct 08 23:28:36 debian kernel: pci 0000:00:02.0: reg 0x14: [mem 0xe0000000-0xe0ffffff pref]
+Oct 08 23:28:36 debian kernel: pci 0000:00:02.0: reg 0x18: [mem 0xf0000000-0xf01fffff]
+Oct 08 23:28:36 debian kernel: pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Oct 08 23:28:36 debian kernel: pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Oct 08 23:28:36 debian kernel: pci 0000:00:03.0: reg 0x10: [mem 0xf0200000-0xf021ffff]
+Oct 08 23:28:36 debian kernel: pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+Oct 08 23:28:36 debian kernel: pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Oct 08 23:28:36 debian kernel: pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Oct 08 23:28:36 debian kernel: pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Oct 08 23:28:36 debian kernel: pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Oct 08 23:28:36 debian kernel: pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Oct 08 23:28:36 debian kernel: pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Oct 08 23:28:36 debian kernel: pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Oct 08 23:28:36 debian kernel: pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Oct 08 23:28:36 debian kernel: pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Oct 08 23:28:36 debian kernel: pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Oct 08 23:28:36 debian kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Oct 08 23:28:36 debian kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Oct 08 23:28:36 debian kernel: pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320
+Oct 08 23:28:36 debian kernel: pci 0000:00:0b.0: reg 0x10: [mem 0xf0805000-0xf0805fff]
+Oct 08 23:28:36 debian kernel: pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Oct 08 23:28:36 debian kernel: pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Oct 08 23:28:36 debian kernel: pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Oct 08 23:28:36 debian kernel: pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Oct 08 23:28:36 debian kernel: pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Oct 08 23:28:36 debian kernel: pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Oct 08 23:28:36 debian kernel: pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Oct 08 23:28:36 debian kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+Oct 08 23:28:36 debian kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Oct 08 23:28:36 debian kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+Oct 08 23:28:36 debian kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Oct 08 23:28:36 debian kernel: iommu: Default domain type: Translated 
+Oct 08 23:28:36 debian kernel: iommu: DMA domain TLB invalidation policy: lazy mode 
+Oct 08 23:28:36 debian kernel: pps_core: LinuxPPS API ver. 1 registered
+Oct 08 23:28:36 debian kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Oct 08 23:28:36 debian kernel: PTP clock support registered
+Oct 08 23:28:36 debian kernel: EDAC MC: Ver: 3.0.0
+Oct 08 23:28:36 debian kernel: NetLabel: Initializing
+Oct 08 23:28:36 debian kernel: NetLabel:  domain hash size = 128
+Oct 08 23:28:36 debian kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Oct 08 23:28:36 debian kernel: NetLabel:  unlabeled traffic allowed by default
+Oct 08 23:28:36 debian kernel: PCI: Using ACPI for IRQ routing
+Oct 08 23:28:36 debian kernel: PCI: pci_cache_line_size set to 64 bytes
+Oct 08 23:28:36 debian kernel: e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Oct 08 23:28:36 debian kernel: e820: reserve RAM buffer [mem 0x7fff0000-0x7fffffff]
+Oct 08 23:28:36 debian kernel: pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Oct 08 23:28:36 debian kernel: pci 0000:00:02.0: vgaarb: bridge control possible
+Oct 08 23:28:36 debian kernel: pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Oct 08 23:28:36 debian kernel: vgaarb: loaded
+Oct 08 23:28:36 debian kernel: clocksource: Switched to clocksource kvm-clock
+Oct 08 23:28:36 debian kernel: VFS: Disk quotas dquot_6.6.0
+Oct 08 23:28:36 debian kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 08 23:28:36 debian kernel: AppArmor: AppArmor Filesystem Enabled
+Oct 08 23:28:36 debian kernel: pnp: PnP ACPI init
+Oct 08 23:28:36 debian kernel: pnp: PnP ACPI: found 2 devices
+Oct 08 23:28:36 debian kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Oct 08 23:28:36 debian kernel: NET: Registered PF_INET protocol family
+Oct 08 23:28:36 debian kernel: IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Oct 08 23:28:36 debian kernel: tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+Oct 08 23:28:36 debian kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Oct 08 23:28:36 debian kernel: TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Oct 08 23:28:36 debian kernel: TCP bind hash table entries: 16384 (order: 7, 524288 bytes, linear)
+Oct 08 23:28:36 debian kernel: TCP: Hash tables configured (established 16384 bind 16384)
+Oct 08 23:28:36 debian kernel: MPTCP token hash table entries: 2048 (order: 3, 49152 bytes, linear)
+Oct 08 23:28:36 debian kernel: UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Oct 08 23:28:36 debian kernel: UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Oct 08 23:28:36 debian kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+Oct 08 23:28:36 debian kernel: NET: Registered PF_XDP protocol family
+Oct 08 23:28:36 debian kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Oct 08 23:28:36 debian kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Oct 08 23:28:36 debian kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Oct 08 23:28:36 debian kernel: pci_bus 0000:00: resource 7 [mem 0x80000000-0xfdffffff window]
+Oct 08 23:28:36 debian kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Oct 08 23:28:36 debian kernel: PCI: CLS 0 bytes, default 64
+Oct 08 23:28:36 debian kernel: Trying to unpack rootfs image as initramfs...
+Oct 08 23:28:36 debian kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+Oct 08 23:28:36 debian kernel: Initialise system trusted keyrings
+Oct 08 23:28:36 debian kernel: Key type blacklist registered
+Oct 08 23:28:36 debian kernel: workingset: timestamp_bits=36 max_order=19 bucket_order=0
+Oct 08 23:28:36 debian kernel: zbud: loaded
+Oct 08 23:28:36 debian kernel: integrity: Platform Keyring initialized
+Oct 08 23:28:36 debian kernel: integrity: Machine keyring initialized
+Oct 08 23:28:36 debian kernel: Key type asymmetric registered
+Oct 08 23:28:36 debian kernel: Asymmetric key parser 'x509' registered
+Oct 08 23:28:36 debian kernel: Freeing initrd memory: 56584K
+Oct 08 23:28:36 debian kernel: alg: self-tests for CTR-KDF (hmac(sha256)) passed
+Oct 08 23:28:36 debian kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+Oct 08 23:28:36 debian kernel: io scheduler mq-deadline registered
+Oct 08 23:28:36 debian kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Oct 08 23:28:36 debian kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Oct 08 23:28:36 debian kernel: Linux agpgart interface v0.103
+Oct 08 23:28:36 debian kernel: AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+Oct 08 23:28:36 debian kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Oct 08 23:28:36 debian kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 08 23:28:36 debian kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 08 23:28:36 debian kernel: mousedev: PS/2 mouse device common for all mice
+Oct 08 23:28:36 debian kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Oct 08 23:28:36 debian kernel: rtc_cmos rtc_cmos: registered as rtc0
+Oct 08 23:28:36 debian kernel: rtc_cmos rtc_cmos: setting system clock to 2024-10-08T21:28:33 UTC (1728422913)
+Oct 08 23:28:36 debian kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Oct 08 23:28:36 debian kernel: intel_pstate: CPU model not supported
+Oct 08 23:28:36 debian kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Oct 08 23:28:36 debian kernel: NET: Registered PF_INET6 protocol family
+Oct 08 23:28:36 debian kernel: Segment Routing with IPv6
+Oct 08 23:28:36 debian kernel: In-situ OAM (IOAM) with IPv6
+Oct 08 23:28:36 debian kernel: mip6: Mobile IPv6
+Oct 08 23:28:36 debian kernel: NET: Registered PF_PACKET protocol family
+Oct 08 23:28:36 debian kernel: mpls_gso: MPLS GSO support
+Oct 08 23:28:36 debian kernel: IPI shorthand broadcast: enabled
+Oct 08 23:28:36 debian kernel: sched_clock: Marking stable (618799549, 44307712)->(675889942, -12782681)
+Oct 08 23:28:36 debian kernel: registered taskstats version 1
+Oct 08 23:28:36 debian kernel: Loading compiled-in X.509 certificates
+Oct 08 23:28:36 debian kernel: Loaded X.509 cert 'Debian Secure Boot CA: 6ccece7e4c6c0d1f6149f3dd27dfcc5cbb419ea1'
+Oct 08 23:28:36 debian kernel: Loaded X.509 cert 'Debian Secure Boot Signer 2022 - linux: 14011249c2675ea8e5148542202005810584b25f'
+Oct 08 23:28:36 debian kernel: zswap: loaded using pool lzo/zbud
+Oct 08 23:28:36 debian kernel: Key type .fscrypt registered
+Oct 08 23:28:36 debian kernel: Key type fscrypt-provisioning registered
+Oct 08 23:28:36 debian kernel: Key type encrypted registered
+Oct 08 23:28:36 debian kernel: AppArmor: AppArmor sha1 policy hashing enabled
+Oct 08 23:28:36 debian kernel: ima: No TPM chip found, activating TPM-bypass!
+Oct 08 23:28:36 debian kernel: ima: Allocated hash algorithm: sha256
+Oct 08 23:28:36 debian kernel: ima: No architecture policies found
+Oct 08 23:28:36 debian kernel: evm: Initialising EVM extended attributes:
+Oct 08 23:28:36 debian kernel: evm: security.selinux
+Oct 08 23:28:36 debian kernel: evm: security.SMACK64 (disabled)
+Oct 08 23:28:36 debian kernel: evm: security.SMACK64EXEC (disabled)
+Oct 08 23:28:36 debian kernel: evm: security.SMACK64TRANSMUTE (disabled)
+Oct 08 23:28:36 debian kernel: evm: security.SMACK64MMAP (disabled)
+Oct 08 23:28:36 debian kernel: evm: security.apparmor
+Oct 08 23:28:36 debian kernel: evm: security.ima
+Oct 08 23:28:36 debian kernel: evm: security.capability
+Oct 08 23:28:36 debian kernel: evm: HMAC attrs: 0x1
+Oct 08 23:28:36 debian kernel: clk: Disabling unused clocks
+Oct 08 23:28:36 debian kernel: Freeing unused decrypted memory: 2036K
+Oct 08 23:28:36 debian kernel: Freeing unused kernel image (initmem) memory: 2796K
+Oct 08 23:28:36 debian kernel: Write protecting the kernel read-only data: 26624k
+Oct 08 23:28:36 debian kernel: Freeing unused kernel image (text/rodata gap) memory: 2040K
+Oct 08 23:28:36 debian kernel: Freeing unused kernel image (rodata/data gap) memory: 1168K
+Oct 08 23:28:36 debian kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Oct 08 23:28:36 debian kernel: Run /init as init process
+Oct 08 23:28:36 debian kernel:   with arguments:
+Oct 08 23:28:36 debian kernel:     /init
+Oct 08 23:28:36 debian kernel:     splash
+Oct 08 23:28:36 debian kernel:   with environment:
+Oct 08 23:28:36 debian kernel:     HOME=/
+Oct 08 23:28:36 debian kernel:     TERM=linux
+Oct 08 23:28:36 debian kernel:     BOOT_IMAGE=/boot/vmlinuz-6.1.0-25-amd64
+Oct 08 23:28:36 debian kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+Oct 08 23:28:36 debian kernel: ACPI: battery: Slot [BAT0] (battery present)
+Oct 08 23:28:36 debian kernel: ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct 08 23:28:36 debian kernel: input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input3
+Oct 08 23:28:36 debian kernel: ACPI: button: Power Button [PWRF]
+Oct 08 23:28:36 debian kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input4
+Oct 08 23:28:36 debian kernel: ACPI: button: Sleep Button [SLPF]
+Oct 08 23:28:36 debian kernel: e1000: Intel(R) PRO/1000 Network Driver
+Oct 08 23:28:36 debian kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Oct 08 23:28:36 debian kernel: SCSI subsystem initialized
+Oct 08 23:28:36 debian kernel: ACPI: bus type USB registered
+Oct 08 23:28:36 debian kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Oct 08 23:28:36 debian kernel: usbcore: registered new interface driver usbfs
+Oct 08 23:28:36 debian kernel: usbcore: registered new interface driver hub
+Oct 08 23:28:36 debian kernel: usbcore: registered new device driver usb
+Oct 08 23:28:36 debian kernel: ACPI: bus type drm_connector registered
+Oct 08 23:28:36 debian kernel: libata version 3.00 loaded.
+Oct 08 23:28:36 debian kernel: ehci-pci 0000:00:0b.0: EHCI Host Controller
+Oct 08 23:28:36 debian kernel: ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+Oct 08 23:28:36 debian kernel: ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+Oct 08 23:28:36 debian kernel: ata_piix 0000:00:01.1: version 2.13
+Oct 08 23:28:36 debian kernel: ahci 0000:00:0d.0: version 3.0
+Oct 08 23:28:36 debian kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Oct 08 23:28:36 debian kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Oct 08 23:28:36 debian kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Oct 08 23:28:36 debian kernel: scsi host0: ata_piix
+Oct 08 23:28:36 debian kernel: scsi host2: ata_piix
+Oct 08 23:28:36 debian kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Oct 08 23:28:36 debian kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Oct 08 23:28:36 debian kernel: scsi host1: ahci
+Oct 08 23:28:36 debian kernel: ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Oct 08 23:28:36 debian kernel: ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+Oct 08 23:28:36 debian kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.01
+Oct 08 23:28:36 debian kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 08 23:28:36 debian kernel: usb usb1: Product: EHCI Host Controller
+Oct 08 23:28:36 debian kernel: usb usb1: Manufacturer: Linux 6.1.0-25-amd64 ehci_hcd
+Oct 08 23:28:36 debian kernel: usb usb1: SerialNumber: 0000:00:0b.0
+Oct 08 23:28:36 debian kernel: hub 1-0:1.0: USB hub found
+Oct 08 23:28:36 debian kernel: hub 1-0:1.0: 12 ports detected
+Oct 08 23:28:36 debian kernel: ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Oct 08 23:28:36 debian kernel: scsi 2:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Oct 08 23:28:36 debian kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Oct 08 23:28:36 debian kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Oct 08 23:28:36 debian kernel: ata3.00: 63513728 sectors, multi 128: LBA48 NCQ (depth 32)
+Oct 08 23:28:36 debian kernel: ata3.00: configured for UDMA/133
+Oct 08 23:28:36 debian kernel: scsi 1:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Oct 08 23:28:36 debian kernel: ohci-pci 0000:00:06.0: OHCI PCI host controller
+Oct 08 23:28:36 debian kernel: ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+Oct 08 23:28:36 debian kernel: ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+Oct 08 23:28:36 debian kernel: Console: switching to colour dummy device 80x25
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] FIFO at 0x00000000f0000000 size is 2048 kiB
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] VRAM at 0x00000000e0000000 size is 16384 kiB
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] Running on SVGA version 2.
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] Capabilities: rect copy, cursor, cursor bypass, cursor bypass 2, alpha cursor, extended fifo, pitchlock, irq mask, gmr, traces, gmr2, screen object 2, command buffers, 
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] DMA map mode: Caching DMA mappings.
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] Legacy memory limits: VRAM = 16384 kB, FIFO = 2048 kB, surface = 507904 kB
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] MOB limits: max mob size = 0 kB, max mob pages = 0
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] Max GMR ids is 8192
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] Max number of GMR pages is 1048576
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] Maximum display memory size is 16384 kiB
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] Screen Object display unit initialized
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] Using command buffers with DMA pool.
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] Available shader model: Legacy.
+Oct 08 23:28:36 debian kernel: [drm:vmw_host_printf [vmwgfx]] *ERROR* Failed to send host log message.
+Oct 08 23:28:36 debian kernel: [drm] Initialized vmwgfx 2.20.0 20211206 for 0000:00:02.0 on minor 0
+Oct 08 23:28:36 debian kernel: fbcon: vmwgfxdrmfb (fb0) is primary device
+Oct 08 23:28:36 debian kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 6.01
+Oct 08 23:28:36 debian kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 08 23:28:36 debian kernel: usb usb2: Product: OHCI PCI host controller
+Oct 08 23:28:36 debian kernel: usb usb2: Manufacturer: Linux 6.1.0-25-amd64 ohci_hcd
+Oct 08 23:28:36 debian kernel: usb usb2: SerialNumber: 0000:00:06.0
+Oct 08 23:28:36 debian kernel: hub 2-0:1.0: USB hub found
+Oct 08 23:28:36 debian kernel: hub 2-0:1.0: 12 ports detected
+Oct 08 23:28:36 debian kernel: sr 2:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Oct 08 23:28:36 debian kernel: cdrom: Uniform CD-ROM driver Revision: 3.20
+Oct 08 23:28:36 debian kernel: Console: switching to colour frame buffer device 160x50
+Oct 08 23:28:36 debian kernel: vmwgfx 0000:00:02.0: [drm] fb0: vmwgfxdrmfb frame buffer device
+Oct 08 23:28:36 debian kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Oct 08 23:28:36 debian kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:d1:65:c7
+Oct 08 23:28:36 debian kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Oct 08 23:28:36 debian kernel: sr 2:0:0:0: Attached scsi CD-ROM sr0
+Oct 08 23:28:36 debian kernel: sd 1:0:0:0: [sda] 63513728 512-byte logical blocks: (32.5 GB/30.3 GiB)
+Oct 08 23:28:36 debian kernel: sd 1:0:0:0: [sda] Write Protect is off
+Oct 08 23:28:36 debian kernel: sd 1:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Oct 08 23:28:36 debian kernel: sd 1:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 08 23:28:36 debian kernel: sd 1:0:0:0: [sda] Preferred minimum I/O size 512 bytes
+Oct 08 23:28:36 debian kernel:  sda: sda1 sda2 < sda5 >
+Oct 08 23:28:36 debian kernel: sd 1:0:0:0: [sda] Attached SCSI disk
+Oct 08 23:28:36 debian kernel: e1000 0000:00:03.0 enp0s3: renamed from eth0
+Oct 08 23:28:36 debian kernel: usb 2-1: new full-speed USB device number 2 using ohci-pci
+Oct 08 23:28:36 debian kernel: usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Oct 08 23:28:36 debian kernel: usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Oct 08 23:28:36 debian kernel: usb 2-1: Product: USB Tablet
+Oct 08 23:28:36 debian kernel: usb 2-1: Manufacturer: VirtualBox
+Oct 08 23:28:36 debian kernel: hid: raw HID events driver (C) Jiri Kosina
+Oct 08 23:28:36 debian kernel: usbcore: registered new interface driver usbhid
+Oct 08 23:28:36 debian kernel: usbhid: USB HID core driver
+Oct 08 23:28:36 debian kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input6
+Oct 08 23:28:36 debian kernel: hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Oct 08 23:28:36 debian kernel: PM: Image not found (code -22)
+Oct 08 23:28:36 debian kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Quota mode: none.
+Oct 08 23:28:36 debian kernel: Not activating Mandatory Access Control as /sbin/tomoyo-init does not exist.
+Oct 08 23:28:36 debian systemd[1]: Inserted module 'autofs4'
+Oct 08 23:28:36 debian systemd[1]: systemd 252.30-1~deb12u2 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Oct 08 23:28:36 debian systemd[1]: Detected virtualization oracle.
+Oct 08 23:28:36 debian systemd[1]: Detected architecture x86-64.
+Oct 08 23:28:36 debian systemd[1]: Hostname set to <debian>.
+Oct 08 23:28:36 debian systemd[1]: Invalid DMI field header.
+Oct 08 23:28:36 debian systemd[1]: Queued start job for default target graphical.target.
+Oct 08 23:28:36 debian systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+Oct 08 23:28:36 debian systemd[1]: Created slice system-modprobe.slice - Slice /system/modprobe.
+Oct 08 23:28:36 debian systemd[1]: Created slice user.slice - User and Session Slice.
+Oct 08 23:28:36 debian systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+Oct 08 23:28:36 debian systemd[1]: Set up automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+Oct 08 23:28:36 debian systemd[1]: Expecting device dev-disk-by\x2duuid-a16246c5\x2d44fe\x2d4bf1\x2d99e3\x2db05e4df433ca.device - /dev/disk/by-uuid/a16246c5-44fe-4bf1-99e3-b05e4df433ca...
+Oct 08 23:28:36 debian systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+Oct 08 23:28:36 debian systemd[1]: Reached target nss-user-lookup.target - User and Group Name Lookups.
+Oct 08 23:28:36 debian systemd[1]: Reached target remote-fs.target - Remote File Systems.
+Oct 08 23:28:36 debian systemd[1]: Reached target slices.target - Slice Units.
+Oct 08 23:28:36 debian systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+Oct 08 23:28:36 debian systemd[1]: Listening on systemd-fsckd.socket - fsck to fsckd communication Socket.
+Oct 08 23:28:36 debian systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+Oct 08 23:28:36 debian systemd[1]: Listening on systemd-journald-audit.socket - Journal Audit Socket.
+Oct 08 23:28:36 debian systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+Oct 08 23:28:36 debian systemd[1]: Listening on systemd-journald.socket - Journal Socket.
+Oct 08 23:28:36 debian systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+Oct 08 23:28:36 debian systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+Oct 08 23:28:36 debian systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+Oct 08 23:28:36 debian systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+Oct 08 23:28:36 debian systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+Oct 08 23:28:36 debian systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+Oct 08 23:28:36 debian systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+Oct 08 23:28:36 debian systemd[1]: Starting kmod-static-nodes.service - Create List of Static Device Nodes...
+Oct 08 23:28:36 debian systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+Oct 08 23:28:36 debian systemd[1]: Starting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+Oct 08 23:28:36 debian systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+Oct 08 23:28:36 debian systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+Oct 08 23:28:36 debian systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+Oct 08 23:28:36 debian systemd[1]: Starting modprobe@loop.service - Load Kernel Module loop...
+Oct 08 23:28:36 debian systemd[1]: systemd-fsck-root.service - File System Check on Root Device was skipped because of an unmet condition check (ConditionPathExists=!/run/initramfs/fsck-root).
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-journald.service - Journal Service...
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-udev-trigger.service - Coldplug All udev Devices...
+Oct 08 23:28:36 debian systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+Oct 08 23:28:36 debian systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+Oct 08 23:28:36 debian systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+Oct 08 23:28:36 debian systemd[1]: Mounted sys-kernel-tracing.mount - Kernel Trace File System.
+Oct 08 23:28:36 debian systemd[1]: Finished kmod-static-nodes.service - Create List of Static Device Nodes.
+Oct 08 23:28:36 debian systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Oct 08 23:28:36 debian systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
+Oct 08 23:28:36 debian systemd[1]: modprobe@drm.service: Deactivated successfully.
+Oct 08 23:28:36 debian systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+Oct 08 23:28:36 debian systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+Oct 08 23:28:36 debian systemd[1]: Finished modprobe@efi_pstore.service - Load Kernel Module efi_pstore.
+Oct 08 23:28:36 debian systemd[1]: Mounting sys-kernel-config.mount - Kernel Configuration File System...
+Oct 08 23:28:36 debian kernel: EXT4-fs (sda1): re-mounted. Quota mode: none.
+Oct 08 23:28:36 debian systemd[1]: Finished systemd-remount-fs.service - Remount Root and Kernel File Systems.
+Oct 08 23:28:36 debian systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+Oct 08 23:28:36 debian systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+Oct 08 23:28:36 debian kernel: loop: module loaded
+Oct 08 23:28:36 debian kernel: fuse: init (API version 7.37)
+Oct 08 23:28:36 debian kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+Oct 08 23:28:36 debian kernel: device-mapper: uevent: version 1.0.3
+Oct 08 23:28:36 debian kernel: device-mapper: ioctl: 4.47.0-ioctl (2022-07-28) initialised: dm-devel@redhat.com
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-random-seed.service - Load/Save Random Seed...
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-sysusers.service - Create System Users...
+Oct 08 23:28:36 debian systemd[1]: modprobe@dm_mod.service: Deactivated successfully.
+Oct 08 23:28:36 debian systemd[1]: Finished modprobe@dm_mod.service - Load Kernel Module dm_mod.
+Oct 08 23:28:36 debian kernel: lp: driver loaded but no devices found
+Oct 08 23:28:36 debian systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Oct 08 23:28:36 debian systemd[1]: Finished modprobe@fuse.service - Load Kernel Module fuse.
+Oct 08 23:28:36 debian systemd[1]: modprobe@loop.service: Deactivated successfully.
+Oct 08 23:28:36 debian systemd[1]: Finished modprobe@loop.service - Load Kernel Module loop.
+Oct 08 23:28:36 debian systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+Oct 08 23:28:36 debian systemd[1]: Mounting sys-fs-fuse-connections.mount - FUSE Control File System...
+Oct 08 23:28:36 debian systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because no trigger condition checks were met.
+Oct 08 23:28:36 debian systemd-journald[241]: Journal started
+Oct 08 23:28:36 debian systemd-journald[241]: Runtime Journal (/run/log/journal/41b6de202c3f48fdaa490411748aaaff) is 2.4M, max 19.6M, 17.2M free.
+Oct 08 23:28:36 debian systemd[1]: Started systemd-journald.service - Journal Service.
+Oct 08 23:28:36 debian systemd-modules-load[242]: Inserted module 'lp'
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+Oct 08 23:28:36 debian systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+Oct 08 23:28:36 debian systemd[1]: Finished systemd-random-seed.service - Load/Save Random Seed.
+Oct 08 23:28:36 debian systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+Oct 08 23:28:36 debian systemd-modules-load[242]: Inserted module 'ppdev'
+Oct 08 23:28:36 debian kernel: ppdev: user-space parallel port driver
+Oct 08 23:28:36 debian systemd-modules-load[242]: Inserted module 'parport_pc'
+Oct 08 23:28:36 debian systemd-journald[241]: Time spent on flushing to /var/log/journal/41b6de202c3f48fdaa490411748aaaff is 2.757ms for 542 entries.
+Oct 08 23:28:36 debian systemd-journald[241]: System Journal (/var/log/journal/41b6de202c3f48fdaa490411748aaaff) is 71.4M, max 2.8G, 2.7G free.
+Oct 08 23:28:36 debian systemd-journald[241]: Received client request to flush runtime journal.
+Oct 08 23:28:36 debian systemd-journald[241]: File /var/log/journal/41b6de202c3f48fdaa490411748aaaff/system.journal corrupted or uncleanly shut down, renaming and replacing.
+Oct 08 23:28:36 debian systemd[1]: Finished systemd-modules-load.service - Load Kernel Modules.
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variables...
+Oct 08 23:28:36 debian systemd[1]: Finished systemd-sysusers.service - Create System Users.
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+Oct 08 23:28:36 debian systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+Oct 08 23:28:36 debian systemd[1]: Starting ifupdown-pre.service - Helper to synchronize boot up for ifupdown...
+Oct 08 23:28:36 debian systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+Oct 08 23:28:36 debian systemd[1]: Finished ifupdown-pre.service - Helper to synchronize boot up for ifupdown.
+Oct 08 23:28:36 debian systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+Oct 08 23:28:36 debian systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+Oct 08 23:28:36 debian systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+Oct 08 23:28:36 debian systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+Oct 08 23:28:36 debian systemd[1]: Reached target local-fs.target - Local File Systems.
+Oct 08 23:28:36 debian systemd[1]: Starting apparmor.service - Load AppArmor profiles...
+Oct 08 23:28:36 debian systemd[1]: Starting console-setup.service - Set console font and keymap...
+Oct 08 23:28:36 debian systemd[1]: Starting plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data...
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+Oct 08 23:28:36 debian systemd[1]: systemd-machine-id-commit.service - Commit a transient machine-id on disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-tmpfiles-setup.service - Create System Files and Directories...
+Oct 08 23:28:36 debian systemd[1]: Finished console-setup.service - Set console font and keymap.
+Oct 08 23:28:36 debian systemd[1]: Received SIGRTMIN+20 from PID 160 (plymouthd).
+Oct 08 23:28:36 debian systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 276 (systemd-binfmt)
+Oct 08 23:28:36 debian systemd[1]: Finished plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data.
+Oct 08 23:28:36 debian systemd-udevd[271]: Using default interface naming scheme 'v252'.
+Oct 08 23:28:36 debian apparmor.systemd[273]: Restarting AppArmor
+Oct 08 23:28:36 debian apparmor.systemd[273]: Reloading AppArmor profiles
+Oct 08 23:28:36 debian systemd[1]: Finished systemd-tmpfiles-setup.service - Create System Files and Directories.
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-timesyncd.service - Network Time Synchronization...
+Oct 08 23:28:36 debian systemd[1]: Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+Oct 08 23:28:36 debian audit[288]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=288 comm="apparmor_parser"
+Oct 08 23:28:36 debian kernel: audit: type=1400 audit(1728422916.712:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=288 comm="apparmor_parser"
+Oct 08 23:28:36 debian systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+Oct 08 23:28:36 debian systemd[1]: Starting plymouth-start.service - Show Plymouth Boot Screen...
+Oct 08 23:28:36 debian audit[287]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/x86_64-linux-gnu/lightdm/lightdm-guest-session" pid=287 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[287]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/x86_64-linux-gnu/lightdm/lightdm-guest-session//chromium" pid=287 comm="apparmor_parser"
+Oct 08 23:28:36 debian kernel: audit: type=1400 audit(1728422916.736:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/x86_64-linux-gnu/lightdm/lightdm-guest-session" pid=287 comm="apparmor_parser"
+Oct 08 23:28:36 debian kernel: audit: type=1400 audit(1728422916.736:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/x86_64-linux-gnu/lightdm/lightdm-guest-session//chromium" pid=287 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[290]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=290 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[290]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=290 comm="apparmor_parser"
+Oct 08 23:28:36 debian kernel: audit: type=1400 audit(1728422916.748:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=290 comm="apparmor_parser"
+Oct 08 23:28:36 debian kernel: audit: type=1400 audit(1728422916.748:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=290 comm="apparmor_parser"
+Oct 08 23:28:36 debian systemd[1]: Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+Oct 08 23:28:36 debian audit[307]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=307 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[307]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=307 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[307]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=307 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[307]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/{,usr/}sbin/dhclient" pid=307 comm="apparmor_parser"
+Oct 08 23:28:36 debian kernel: audit: type=1400 audit(1728422916.764:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=307 comm="apparmor_parser"
+Oct 08 23:28:36 debian kernel: audit: type=1400 audit(1728422916.764:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=307 comm="apparmor_parser"
+Oct 08 23:28:36 debian kernel: audit: type=1400 audit(1728422916.764:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=307 comm="apparmor_parser"
+Oct 08 23:28:36 debian kernel: audit: type=1400 audit(1728422916.764:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/{,usr/}sbin/dhclient" pid=307 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[308]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=308 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[308]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=308 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[308]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=308 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[309]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oosplash" pid=309 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[311]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=311 comm="apparmor_parser"
+Oct 08 23:28:36 debian kernel: sr 2:0:0:0: Attached scsi generic sg0 type 5
+Oct 08 23:28:36 debian kernel: sd 1:0:0:0: Attached scsi generic sg1 type 0
+Oct 08 23:28:36 debian audit[316]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=316 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[320]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cups-browsed" pid=320 comm="apparmor_parser"
+Oct 08 23:28:36 debian kernel: ACPI: AC: AC Adapter [AC] (off-line)
+Oct 08 23:28:36 debian systemd[1]: Started plymouth-start.service - Show Plymouth Boot Screen.
+Oct 08 23:28:36 debian systemd[1]: Found device dev-disk-by\x2duuid-a16246c5\x2d44fe\x2d4bf1\x2d99e3\x2db05e4df433ca.device - VBOX_HARDDISK 5.
+Oct 08 23:28:36 debian systemd[1]: systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch was skipped because of an unmet condition check (ConditionPathExists=!/run/plymouth/pid).
+Oct 08 23:28:36 debian mtp-probe[321]: checking bus 2, device 2: "/sys/devices/pci0000:00/0000:00:06.0/usb2/2-1"
+Oct 08 23:28:36 debian mtp-probe[321]: bus: 2, device: 2 was not an MTP device
+Oct 08 23:28:36 debian systemd[1]: Started systemd-ask-password-plymouth.path - Forward Password Requests to Plymouth Directory Watch.
+Oct 08 23:28:36 debian systemd[1]: Reached target cryptsetup.target - Local Encrypted Volumes.
+Oct 08 23:28:36 debian audit[323]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=323 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[323]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd" pid=323 comm="apparmor_parser"
+Oct 08 23:28:36 debian audit[323]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd//third_party" pid=323 comm="apparmor_parser"
+Oct 08 23:28:37 debian systemd[1]: Activating swap dev-disk-by\x2duuid-a16246c5\x2d44fe\x2d4bf1\x2d99e3\x2db05e4df433ca.swap - /dev/disk/by-uuid/a16246c5-44fe-4bf1-99e3-b05e4df433ca...
+Oct 08 23:28:37 debian kernel: input: PC Speaker as /devices/platform/pcspkr/input/input7
+Oct 08 23:28:37 debian kernel: vboxguest: host-version: 7.0.18r162988 0x8000000f
+Oct 08 23:28:37 debian kernel: vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+Oct 08 23:28:37 debian kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input8
+Oct 08 23:28:37 debian audit[314]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-soffice" pid=314 comm="apparmor_parser"
+Oct 08 23:28:37 debian audit[314]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-soffice//gpg" pid=314 comm="apparmor_parser"
+Oct 08 23:28:37 debian systemd[1]: Finished apparmor.service - Load AppArmor profiles.
+Oct 08 23:28:37 debian kernel: Adding 998396k swap on /dev/sda5.  Priority:-2 extents:1 across:998396k FS
+Oct 08 23:28:37 debian systemd[1]: Starting networking.service - Raise network interfaces...
+Oct 08 23:28:37 debian systemd[1]: Activated swap dev-disk-by\x2duuid-a16246c5\x2d44fe\x2d4bf1\x2d99e3\x2db05e4df433ca.swap - /dev/disk/by-uuid/a16246c5-44fe-4bf1-99e3-b05e4df433ca.
+Oct 08 23:28:37 debian systemd[1]: Reached target swap.target - Swaps.
+Oct 08 23:28:37 debian kernel: RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+Oct 08 23:28:37 debian kernel: cryptd: max_cpu_qlen set to 1000
+Oct 08 23:28:37 debian kernel: SSE version of gcm_enc/dec engaged.
+Oct 08 23:28:37 debian systemd[1]: Finished networking.service - Raise network interfaces.
+Oct 08 23:28:37 debian kernel: snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+Oct 08 23:28:37 debian systemd[1]: Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+Oct 08 23:28:37 debian systemd[1]: Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+Oct 08 23:28:37 debian systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+Oct 08 23:28:37 debian systemd[1]: Started systemd-timesyncd.service - Network Time Synchronization.
+Oct 08 23:28:37 debian systemd[1]: Reached target sysinit.target - System Initialization.
+Oct 08 23:28:37 debian systemd[1]: Started cups.path - CUPS Scheduler.
+Oct 08 23:28:37 debian systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+Oct 08 23:28:37 debian systemd[1]: Reached target paths.target - Path Units.
+Oct 08 23:28:37 debian systemd[1]: Reached target time-set.target - System Time Set.
+Oct 08 23:28:37 debian systemd[1]: Started anacron.timer - Trigger anacron every hour.
+Oct 08 23:28:37 debian systemd[1]: Started apt-daily.timer - Daily apt download activities.
+Oct 08 23:28:37 debian systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+Oct 08 23:28:37 debian systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+Oct 08 23:28:37 debian systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+Oct 08 23:28:37 debian systemd[1]: Started fstrim.timer - Discard unused blocks once a week.
+Oct 08 23:28:37 debian systemd[1]: Started logrotate.timer - Daily rotation of log files.
+Oct 08 23:28:37 debian systemd[1]: Started man-db.timer - Daily man-db regeneration.
+Oct 08 23:28:37 debian systemd[1]: Started phpsessionclean.timer - Clean PHP session files every 30 mins.
+Oct 08 23:28:37 debian systemd[1]: Reached target timers.target - Timer Units.
+Oct 08 23:28:37 debian systemd[1]: Listening on avahi-daemon.socket - Avahi mDNS/DNS-SD Stack Activation Socket.
+Oct 08 23:28:37 debian systemd[1]: Listening on cups.socket - CUPS Scheduler.
+Oct 08 23:28:37 debian systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+Oct 08 23:28:37 debian systemd[1]: Reached target sockets.target - Socket Units.
+Oct 08 23:28:37 debian systemd[1]: systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+Oct 08 23:28:37 debian systemd[1]: Reached target basic.target - Basic System.
+Oct 08 23:28:37 debian systemd[1]: Starting accounts-daemon.service - Accounts Service...
+Oct 08 23:28:37 debian systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Oct 08 23:28:37 debian systemd[1]: Starting avahi-daemon.service - Avahi mDNS/DNS-SD Stack...
+Oct 08 23:28:37 debian systemd[1]: Started cron.service - Regular background program processing daemon.
+Oct 08 23:28:37 debian systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+Oct 08 23:28:37 debian systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+Oct 08 23:28:37 debian systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+Oct 08 23:28:37 debian systemd[1]: Starting polkit.service - Authorization Manager...
+Oct 08 23:28:37 debian systemd[1]: Starting systemd-logind.service - User Login Management...
+Oct 08 23:28:37 debian systemd[1]: systemd-pcrphase.service - TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+Oct 08 23:28:37 debian systemd[1]: Starting udisks2.service - Disk Manager...
+Oct 08 23:28:37 debian cron[484]: (CRON) INFO (pidfile fd = 3)
+Oct 08 23:28:37 debian cron[484]: (CRON) INFO (Running @reboot jobs)
+Oct 08 23:28:37 debian avahi-daemon[483]: Found user 'avahi' (UID 104) and group 'avahi' (GID 112).
+Oct 08 23:28:37 debian systemd[1]: alsa-state.service - Manage Sound Card State (restore and store) was skipped because of an unmet condition check (ConditionPathExists=/etc/alsa/state-daemon.conf).
+Oct 08 23:28:37 debian avahi-daemon[483]: Successfully dropped root privileges.
+Oct 08 23:28:37 debian avahi-daemon[483]: avahi-daemon 0.8 starting up.
+Oct 08 23:28:37 debian udisksd[489]: udisks daemon version 2.9.4 starting
+Oct 08 23:28:37 debian systemd[1]: Starting alsa-restore.service - Save/Restore Sound Card State...
+Oct 08 23:28:37 debian polkitd[487]: Started polkitd version 122
+Oct 08 23:28:37 debian alsactl[491]: alsa-lib main.c:1541:(snd_use_case_mgr_open) error: failed to import hw:0 use case configuration -2
+Oct 08 23:28:37 debian systemd[1]: Finished alsa-restore.service - Save/Restore Sound Card State.
+Oct 08 23:28:37 debian systemd[1]: Reached target sound.target - Sound Card.
+Oct 08 23:28:37 debian systemd[1]: Started dbus.service - D-Bus System Message Bus.
+Oct 08 23:28:37 debian avahi-daemon[483]: Successfully called chroot().
+Oct 08 23:28:37 debian systemd[1]: Starting NetworkManager.service - Network Manager...
+Oct 08 23:28:37 debian avahi-daemon[483]: Successfully dropped remaining capabilities.
+Oct 08 23:28:37 debian systemd[1]: Starting wpa_supplicant.service - WPA supplicant...
+Oct 08 23:28:37 debian avahi-daemon[483]: No service file found in /etc/avahi/services.
+Oct 08 23:28:37 debian systemd[1]: Started avahi-daemon.service - Avahi mDNS/DNS-SD Stack.
+Oct 08 23:28:37 debian avahi-daemon[483]: Joining mDNS multicast group on interface lo.IPv6 with address ::1.
+Oct 08 23:28:37 debian avahi-daemon[483]: New relevant interface lo.IPv6 for mDNS.
+Oct 08 23:28:37 debian avahi-daemon[483]: Joining mDNS multicast group on interface lo.IPv4 with address 127.0.0.1.
+Oct 08 23:28:37 debian avahi-daemon[483]: New relevant interface lo.IPv4 for mDNS.
+Oct 08 23:28:37 debian avahi-daemon[483]: Network interface enumeration completed.
+Oct 08 23:28:37 debian avahi-daemon[483]: Registering new address record for ::1 on lo.*.
+Oct 08 23:28:37 debian avahi-daemon[483]: Registering new address record for 127.0.0.1 on lo.IPv4.
+Oct 08 23:28:37 debian polkitd[487]: Loading rules from directory /etc/polkit-1/rules.d
+Oct 08 23:28:37 debian polkitd[487]: Loading rules from directory /usr/share/polkit-1/rules.d
+Oct 08 23:28:37 debian dbus-daemon[485]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.4' (uid=0 pid=482 comm="/usr/libexec/accounts-daemon")
+Oct 08 23:28:37 debian polkitd[487]: Finished loading, compiling and executing 5 rules
+Oct 08 23:28:37 debian dbus-daemon[485]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Oct 08 23:28:37 debian systemd[1]: Started polkit.service - Authorization Manager.
+Oct 08 23:28:37 debian polkitd[487]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Oct 08 23:28:37 debian udisksd[489]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Oct 08 23:28:37 debian accounts-daemon[482]: started daemon version 22.08.8
+Oct 08 23:28:37 debian wpa_supplicant[499]: Successfully initialized wpa_supplicant
+Oct 08 23:28:37 debian systemd[1]: Starting ModemManager.service - Modem Manager...
+Oct 08 23:28:37 debian systemd[1]: Started accounts-daemon.service - Accounts Service.
+Oct 08 23:28:37 debian systemd[1]: Started wpa_supplicant.service - WPA supplicant.
+Oct 08 23:28:37 debian systemd-logind[488]: New seat seat0.
+Oct 08 23:28:37 debian udisksd[489]: Failed to load the 'mdraid' libblockdev plugin
+Oct 08 23:28:37 debian systemd-logind[488]: Watching system buttons on /dev/input/event1 (Power Button)
+Oct 08 23:28:37 debian systemd-logind[488]: Watching system buttons on /dev/input/event3 (Sleep Button)
+Oct 08 23:28:37 debian systemd-logind[488]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 08 23:28:37 debian systemd[1]: Started systemd-logind.service - User Login Management.
+Oct 08 23:28:37 debian ModemManager[508]: <info>  ModemManager (version 1.20.4) starting in system bus...
+Oct 08 23:28:37 debian NetworkManager[498]: <info>  [1728422917.7993] NetworkManager (version 1.42.4) is starting... (boot:af0a79f7-6920-440c-8e08-594d6547449b)
+Oct 08 23:28:37 debian NetworkManager[498]: <info>  [1728422917.8001] Read config: /etc/NetworkManager/NetworkManager.conf (lib: no-mac-addr-change.conf)
+Oct 08 23:28:37 debian systemd[1]: Started NetworkManager.service - Network Manager.
+Oct 08 23:28:37 debian systemd[1]: Reached target network.target - Network.
+Oct 08 23:28:37 debian NetworkManager[498]: <info>  [1728422917.8089] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Oct 08 23:28:37 debian NetworkManager[498]: <info>  [1728422917.8177] manager[0x558f9efc7000]: monitoring kernel firmware directory '/lib/firmware'.
+Oct 08 23:28:37 debian NetworkManager[498]: <info>  [1728422917.8178] monitoring ifupdown state file '/run/network/ifstate'.
+Oct 08 23:28:37 debian dbus-daemon[485]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.9' (uid=0 pid=498 comm="/usr/sbin/NetworkManager --no-daemon")
+Oct 08 23:28:37 debian systemd[1]: Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+Oct 08 23:28:37 debian systemd[1]: Starting apache2.service - The Apache HTTP Server...
+Oct 08 23:28:37 debian systemd[1]: Starting cups.service - CUPS Scheduler...
+Oct 08 23:28:37 debian systemd[1]: Starting mariadb.service - MariaDB 10.11.6 database server...
+Oct 08 23:28:37 debian systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Oct 08 23:28:37 debian systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+Oct 08 23:28:37 debian systemd[1]: Starting vsftpd.service - vsftpd FTP server...
+Oct 08 23:28:37 debian systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+Oct 08 23:28:37 debian systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+Oct 08 23:28:37 debian systemd[1]: Started vsftpd.service - vsftpd FTP server.
+Oct 08 23:28:37 debian systemd[1]: Starting lightdm.service - Light Display Manager...
+Oct 08 23:28:37 debian systemd[1]: Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+Oct 08 23:28:37 debian kernel: NET: Registered PF_QIPCRTR protocol family
+Oct 08 23:28:37 debian systemd[1]: Started ModemManager.service - Modem Manager.
+Oct 08 23:28:37 debian systemd[1]: Started udisks2.service - Disk Manager.
+Oct 08 23:28:38 debian audit[522]: AVC apparmor="DENIED" operation="capable" profile="/usr/sbin/cupsd" pid=522 comm="cupsd" capability=12  capname="net_admin"
+Oct 08 23:28:38 debian dbus-daemon[485]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0320] hostname: hostname: using hostnamed
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0321] hostname: static hostname changed from (none) to "debian"
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0327] dns-mgr: init: dns=default,systemd-resolved rc-manager=symlink (auto)
+Oct 08 23:28:38 debian systemd[1]: Started cups.service - CUPS Scheduler.
+Oct 08 23:28:38 debian systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+Oct 08 23:28:38 debian udisksd[489]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0453] manager[0x558f9efc7000]: rfkill: Wi-Fi hardware radio set enabled
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0453] manager[0x558f9efc7000]: rfkill: WWAN hardware radio set enabled
+Oct 08 23:28:38 debian sshd[550]: Server listening on 0.0.0.0 port 22.
+Oct 08 23:28:38 debian sshd[550]: Server listening on :: port 22.
+Oct 08 23:28:38 debian systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Oct 08 23:28:38 debian systemd[1]: e2scrub_reap.service: Deactivated successfully.
+Oct 08 23:28:38 debian systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0546] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-wwan.so)
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0563] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-adsl.so)
+Oct 08 23:28:38 debian systemd[1]: Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0619] Loaded device plugin: NMTeamFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-team.so)
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0665] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-wifi.so)
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0711] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-device-plugin-bluetooth.so)
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0714] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0715] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0715] manager: Networking is enabled by state file
+Oct 08 23:28:38 debian dbus-daemon[485]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.9' (uid=0 pid=498 comm="/usr/sbin/NetworkManager --no-daemon")
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0737] settings: Loaded settings plugin: ifupdown ("/usr/lib/x86_64-linux-gnu/NetworkManager/1.42.4/libnm-settings-plugin-ifupdown.so")
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0737] settings: Loaded settings plugin: keyfile (internal)
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0737] ifupdown: management mode: unmanaged
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0737] ifupdown:       interface-parser: parsing file /etc/network/interfaces
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0738] ifupdown:       interface-parser: source line includes interfaces file(s) /etc/network/interfaces.d/*
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0738] ifupdown: interfaces file /etc/network/interfaces.d/* doesn't exist
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0738] ifupdown:       interface-parser: finished parsing file /etc/network/interfaces
+Oct 08 23:28:38 debian systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0822] dhcp: init: Using DHCP client 'internal'
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0832] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0842] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0847] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0854] device (lo): Activation: starting connection 'lo' (33ee38bb-7950-48be-bd25-7644d7c09e3b)
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0861] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.0865] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Oct 08 23:28:38 debian systemd[1]: Received SIGRTMIN+21 from PID 160 (plymouthd).
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.1113] device (lo): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.1115] device (lo): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.1116] device (lo): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.1118] device (enp0s3): carrier: link connected
+Oct 08 23:28:38 debian kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 08 23:28:38 debian kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.1130] device (lo): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.1132] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Oct 08 23:28:38 debian dbus-daemon[485]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 08 23:28:38 debian systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.1983] modem-manager: ModemManager available
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.1985] policy: auto-activating connection 'Wired connection 1' (01fd2e06-d72b-466e-b879-b68fa0126e48)
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.1997] device (lo): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.2013] device (enp0s3): Activation: starting connection 'Wired connection 1' (01fd2e06-d72b-466e-b879-b68fa0126e48)
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.2016] device (lo): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.2019] device (lo): Activation: successful, device activated.
+Oct 08 23:28:38 debian systemd[1]: Finished plymouth-quit-wait.service - Hold until boot process finishes up.
+Oct 08 23:28:38 debian systemd[1]: Received SIGRTMIN+21 from PID 160 (n/a).
+Oct 08 23:28:38 debian systemd[1]: Started lightdm.service - Light Display Manager.
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.2066] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.2068] manager: NetworkManager state is now CONNECTING
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.2069] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Oct 08 23:28:38 debian systemd[1]: Started getty@tty1.service - Getty on tty1.
+Oct 08 23:28:38 debian systemd[1]: Reached target getty.target - Login Prompts.
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.2178] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.2316] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Oct 08 23:28:38 debian avahi-daemon[483]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::a00:27ff:fed1:65c7.
+Oct 08 23:28:38 debian avahi-daemon[483]: New relevant interface enp0s3.IPv6 for mDNS.
+Oct 08 23:28:38 debian avahi-daemon[483]: Registering new address record for fe80::a00:27ff:fed1:65c7 on enp0s3.*.
+Oct 08 23:28:38 debian NetworkManager[498]: <info>  [1728422918.3095] dhcp4 (enp0s3): state changed no lease
+Oct 08 23:28:38 debian apachectl[578]: AH00557: apache2: apr_sockaddr_info_get() failed for debian
+Oct 08 23:28:38 debian apachectl[578]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Oct 08 23:28:38 debian systemd[1]: Started apache2.service - The Apache HTTP Server.
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] Starting MariaDB 10.11.6-MariaDB-0+deb12u1 source revision  as process 637
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: Number of transaction pools: 1
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: Using liburing
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: Initializing buffer pool, total size = 128.000MiB, chunk size = 2.000MiB
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: Completed initialization of buffer pool
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: File system buffers for log disabled (block size=512 bytes)
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=1616281
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: End of log at LSN=1828676
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: To recover: 117 pages
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: 128 rollback segments are active.
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: Setting file './ibtmp1' size to 12.000MiB. Physically writing the file full; Please wait ...
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: File './ibtmp1' size is now 12.000MiB.
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: log sequence number 1828676; transaction id 753
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Warning] You need to use --log-bin to make --expire-logs-days or --binlog-expire-logs-seconds work.
+Oct 08 23:28:38 debian mariadbd[637]: 2024-10-08 17:28:38 0 [Note] Server socket created on IP: '127.0.0.1'.
+Oct 08 23:28:39 debian mariadbd[637]: 2024-10-08 17:28:39 0 [Note] InnoDB: Buffer pool(s) load completed at 241008 17:28:39
+Oct 08 23:28:39 debian avahi-daemon[483]: Server startup complete. Host name is debian.local. Local service cookie is 1813690972.
+Oct 08 23:28:39 debian mariadbd[637]: 2024-10-08 17:28:39 0 [Note] /usr/sbin/mariadbd: ready for connections.
+Oct 08 23:28:39 debian mariadbd[637]: Version: '10.11.6-MariaDB-0+deb12u1'  socket: '/run/mysqld/mysqld.sock'  port: 3306  Debian 12
+Oct 08 23:28:39 debian systemd[1]: Started mariadb.service - MariaDB 10.11.6 database server.
+Oct 08 23:28:39 debian /etc/mysql/debian-start[672]: Upgrading MySQL tables if necessary.
+Oct 08 23:28:39 debian /etc/mysql/debian-start[685]: Checking for insecure root accounts.
+Oct 08 23:28:39 debian /etc/mysql/debian-start[689]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+Oct 08 23:28:39 debian lightdm[718]: pam_unix(lightdm-greeter:session): session opened for user lightdm(uid=108) by (uid=0)
+Oct 08 23:28:39 debian systemd[1]: Created slice user-108.slice - User Slice of UID 108.
+Oct 08 23:28:39 debian systemd[1]: Starting user-runtime-dir@108.service - User Runtime Directory /run/user/108...
+Oct 08 23:28:39 debian systemd-logind[488]: New session c1 of user lightdm.
+Oct 08 23:28:39 debian systemd[1]: Finished user-runtime-dir@108.service - User Runtime Directory /run/user/108.
+Oct 08 23:28:39 debian systemd[1]: Starting user@108.service - User Manager for UID 108...
+Oct 08 23:28:39 debian (systemd)[725]: pam_unix(systemd-user:session): session opened for user lightdm(uid=108) by (uid=0)
+Oct 08 23:28:39 debian systemd[725]: Queued start job for default target default.target.
+Oct 08 23:28:39 debian systemd[725]: Created slice app.slice - User Application Slice.
+Oct 08 23:28:39 debian systemd[725]: Created slice session.slice - User Core Session Slice.
+Oct 08 23:28:39 debian systemd[725]: Reached target paths.target - Paths.
+Oct 08 23:28:39 debian systemd[725]: Reached target timers.target - Timers.
+Oct 08 23:28:39 debian systemd[725]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Oct 08 23:28:39 debian systemd[725]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Oct 08 23:28:39 debian systemd[725]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Oct 08 23:28:39 debian systemd[725]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Oct 08 23:28:39 debian systemd[725]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct 08 23:28:39 debian systemd[725]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Oct 08 23:28:39 debian systemd[725]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Oct 08 23:28:39 debian systemd[725]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Oct 08 23:28:39 debian systemd[725]: Listening on pulseaudio.socket - Sound System.
+Oct 08 23:28:39 debian systemd[725]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Oct 08 23:28:39 debian systemd[725]: Reached target sockets.target - Sockets.
+Oct 08 23:28:39 debian systemd[725]: Reached target basic.target - Basic System.
+Oct 08 23:28:39 debian systemd[1]: Started user@108.service - User Manager for UID 108.
+Oct 08 23:28:39 debian systemd[1]: Started session-c1.scope - Session c1 of User lightdm.
+Oct 08 23:28:39 debian systemd[725]: Starting pulseaudio.service - Sound Service...
+Oct 08 23:28:39 debian dbus-daemon[485]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.22' (uid=108 pid=741 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo")
+Oct 08 23:28:39 debian systemd[1]: Starting rtkit-daemon.service - RealtimeKit Scheduling Policy Service...
+Oct 08 23:28:39 debian dbus-daemon[485]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Oct 08 23:28:39 debian systemd[1]: Started rtkit-daemon.service - RealtimeKit Scheduling Policy Service.
+Oct 08 23:28:39 debian rtkit-daemon[744]: Successfully called chroot.
+Oct 08 23:28:39 debian rtkit-daemon[744]: Successfully dropped privileges.
+Oct 08 23:28:39 debian rtkit-daemon[744]: Successfully limited resources.
+Oct 08 23:28:39 debian rtkit-daemon[744]: Running.
+Oct 08 23:28:39 debian rtkit-daemon[744]: Watchdog thread running.
+Oct 08 23:28:39 debian rtkit-daemon[744]: Canary thread running.
+Oct 08 23:28:39 debian rtkit-daemon[744]: Successfully made thread 741 of process 741 owned by '108' high priority at nice level -11.
+Oct 08 23:28:39 debian rtkit-daemon[744]: Supervising 1 threads of 1 processes of 1 users.
+Oct 08 23:28:39 debian systemd[725]: Starting dbus.service - D-Bus User Message Bus...
+Oct 08 23:28:39 debian systemd[725]: Started dbus.service - D-Bus User Message Bus.
+Oct 08 23:28:39 debian dbus-daemon[751]: [session uid=108 pid=751] Activating via systemd: service name='org.a11y.Bus' unit='at-spi-dbus-bus.service' requested by ':1.2' (uid=108 pid=742 comm="/usr/sbin/lightdm-gtk-greeter")
+Oct 08 23:28:39 debian systemd[725]: Starting at-spi-dbus-bus.service - Accessibility services bus...
+Oct 08 23:28:39 debian pulseaudio[741]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Oct 08 23:28:39 debian pulseaudio[741]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Oct 08 23:28:39 debian pulseaudio[741]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Oct 08 23:28:39 debian pulseaudio[741]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Oct 08 23:28:39 debian pulseaudio[741]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Oct 08 23:28:39 debian pulseaudio[741]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Oct 08 23:28:39 debian pulseaudio[741]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Oct 08 23:28:39 debian pulseaudio[741]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Oct 08 23:28:39 debian pulseaudio[741]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Oct 08 23:28:39 debian pulseaudio[741]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+Oct 08 23:28:39 debian dbus-daemon[751]: [session uid=108 pid=751] Successfully activated service 'org.a11y.Bus'
+Oct 08 23:28:39 debian systemd[725]: Started at-spi-dbus-bus.service - Accessibility services bus.
+Oct 08 23:28:39 debian dbus-daemon[751]: [session uid=108 pid=751] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.4' (uid=108 pid=742 comm="/usr/sbin/lightdm-gtk-greeter")
+Oct 08 23:28:40 debian systemd[725]: Starting gvfs-daemon.service - Virtual filesystem service...
+Oct 08 23:28:40 debian NetworkManager[498]: <info>  [1728422920.0495] dhcp6 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Oct 08 23:28:40 debian NetworkManager[498]: <info>  [1728422920.0518] policy: set 'Wired connection 1' (enp0s3) as default for IPv6 routing and DNS
+Oct 08 23:28:40 debian avahi-daemon[483]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::a00:27ff:fed1:65c7.
+Oct 08 23:28:40 debian avahi-daemon[483]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fdaa:bbcc:ddee:0:a00:27ff:fed1:65c7.
+Oct 08 23:28:40 debian pulseaudio[741]: Disabling timer-based scheduling because running inside a VM.
+Oct 08 23:28:40 debian avahi-daemon[483]: Registering new address record for fdaa:bbcc:ddee:0:a00:27ff:fed1:65c7 on enp0s3.*.
+Oct 08 23:28:40 debian avahi-daemon[483]: Withdrawing address record for fe80::a00:27ff:fed1:65c7 on enp0s3.
+Oct 08 23:28:40 debian avahi-daemon[483]: Registering new address record for 2800:810:458:173:a00:27ff:fed1:65c7 on enp0s3.*.
+Oct 08 23:28:40 debian rtkit-daemon[744]: Supervising 1 threads of 1 processes of 1 users.
+Oct 08 23:28:40 debian dbus-daemon[751]: [session uid=108 pid=751] Successfully activated service 'org.gtk.vfs.Daemon'
+Oct 08 23:28:40 debian systemd[725]: Started gvfs-daemon.service - Virtual filesystem service.
+Oct 08 23:28:40 debian rtkit-daemon[744]: Successfully made thread 768 of process 741 owned by '108' RT at priority 5.
+Oct 08 23:28:40 debian rtkit-daemon[744]: Supervising 2 threads of 1 processes of 1 users.
+Oct 08 23:28:40 debian pulseaudio[741]: Disabling timer-based scheduling because running inside a VM.
+Oct 08 23:28:40 debian rtkit-daemon[744]: Supervising 2 threads of 1 processes of 1 users.
+Oct 08 23:28:40 debian rtkit-daemon[744]: Successfully made thread 774 of process 741 owned by '108' RT at priority 5.
+Oct 08 23:28:40 debian rtkit-daemon[744]: Supervising 3 threads of 1 processes of 1 users.
+Oct 08 23:28:40 debian systemd[725]: Started pulseaudio.service - Sound Service.
+Oct 08 23:28:40 debian systemd[725]: Reached target default.target - Main User Target.
+Oct 08 23:28:40 debian systemd[725]: Startup finished in 636ms.
+Oct 08 23:28:40 debian at-spi-bus-launcher[758]: dbus-daemon[758]: Activating service name='org.a11y.atspi.Registry' requested by ':1.1' (uid=108 pid=743 comm="/usr/bin/python3 /usr/bin/orca --replace --no-setu")
+Oct 08 23:28:40 debian at-spi-bus-launcher[758]: dbus-daemon[758]: Successfully activated service 'org.a11y.atspi.Registry'
+Oct 08 23:28:40 debian at-spi-bus-launcher[797]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Oct 08 23:28:40 debian ModemManager[508]: <info>  [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+Oct 08 23:28:40 debian NetworkManager[498]: <info>  [1728422920.5640] dhcp4 (enp0s3): state changed new lease, address=192.168.0.137
+Oct 08 23:28:40 debian NetworkManager[498]: <info>  [1728422920.5644] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Oct 08 23:28:40 debian avahi-daemon[483]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 192.168.0.137.
+Oct 08 23:28:40 debian avahi-daemon[483]: New relevant interface enp0s3.IPv4 for mDNS.
+Oct 08 23:28:40 debian avahi-daemon[483]: Registering new address record for 192.168.0.137 on enp0s3.IPv4.
+Oct 08 23:28:40 debian NetworkManager[498]: <info>  [1728422920.6042] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Oct 08 23:28:40 debian NetworkManager[498]: <info>  [1728422920.6118] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Oct 08 23:28:40 debian NetworkManager[498]: <info>  [1728422920.6151] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Oct 08 23:28:40 debian NetworkManager[498]: <info>  [1728422920.6153] manager: NetworkManager state is now CONNECTED_SITE
+Oct 08 23:28:40 debian NetworkManager[498]: <info>  [1728422920.6154] device (enp0s3): Activation: successful, device activated.
+Oct 08 23:28:40 debian NetworkManager[498]: <info>  [1728422920.6156] manager: NetworkManager state is now CONNECTED_GLOBAL
+Oct 08 23:28:40 debian NetworkManager[498]: <info>  [1728422920.6160] manager: startup complete
+Oct 08 23:28:40 debian systemd[1]: Finished NetworkManager-wait-online.service - Network Manager Wait Online.
+Oct 08 23:28:40 debian systemd[1]: Reached target network-online.target - Network is Online.
+Oct 08 23:28:40 debian systemd[1]: Started cups-browsed.service - Make remote CUPS printers available locally.
+Oct 08 23:28:40 debian systemd[1]: Reached target multi-user.target - Multi-User System.
+Oct 08 23:28:40 debian systemd[1]: Reached target graphical.target - Graphical Interface.
+Oct 08 23:28:40 debian systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+Oct 08 23:28:40 debian systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Oct 08 23:28:40 debian systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+Oct 08 23:28:40 debian systemd[1]: Startup finished in 3.015s (kernel) + 4.760s (userspace) = 7.776s.
+Oct 08 23:28:41 debian avahi-daemon[483]: Registering new address record for 2800:810:458:173:81e9:d099:ec4d:292f on enp0s3.*.
+Oct 08 23:28:41 debian avahi-daemon[483]: Registering new address record for fdaa:bbcc:ddee:0:8627:39c8:ec4b:f7e3 on enp0s3.*.
+Oct 08 23:28:41 debian pulseaudio[741]: ALSA woke us up to write new data to the device, but there was actually nothing to write.
+Oct 08 23:28:41 debian pulseaudio[741]: Most likely this is a bug in the ALSA driver 'snd_intel8x0'. Please report this issue to the ALSA developers.
+Oct 08 23:28:41 debian pulseaudio[741]: We were woken up with POLLOUT set -- however a subsequent snd_pcm_avail() returned 0 or another value < min_avail.
+Oct 08 23:28:50 debian systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 08 23:28:53 debian lightdm[886]: gkr-pam: unable to locate daemon control file
+Oct 08 23:28:53 debian lightdm[886]: gkr-pam: stashed password to try later in open session
+Oct 08 23:28:53 debian systemd[1]: Stopping session-c1.scope - Session c1 of User lightdm...
+Oct 08 23:28:53 debian lightdm[718]: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Oct 08 23:28:53 debian lightdm[886]: pam_unix(lightdm:session): session opened for user debian(uid=1000) by (uid=0)
+Oct 08 23:28:53 debian systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+Oct 08 23:28:53 debian systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+Oct 08 23:28:53 debian systemd-logind[488]: New session 2 of user debian.
+Oct 08 23:28:53 debian systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+Oct 08 23:28:53 debian systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+Oct 08 23:28:53 debian (systemd)[915]: pam_unix(systemd-user:session): session opened for user debian(uid=1000) by (uid=0)
+Oct 08 23:28:53 debian systemd[1]: Started user@1000.service - User Manager for UID 1000.
+Oct 08 23:28:53 debian systemd[1]: Started session-2.scope - Session 2 of User debian.
+Oct 08 23:28:53 debian rtkit-daemon[744]: Successfully made thread 933 of process 933 owned by '1000' high priority at nice level -11.
+Oct 08 23:28:53 debian rtkit-daemon[744]: Supervising 4 threads of 2 processes of 2 users.
+Oct 08 23:28:54 debian lightdm[886]: gkr-pam: unlocked login keyring
+Oct 08 23:28:54 debian rtkit-daemon[744]: Supervising 4 threads of 2 processes of 2 users.
+Oct 08 23:28:54 debian rtkit-daemon[744]: Successfully made thread 956 of process 933 owned by '1000' RT at priority 5.
+Oct 08 23:28:54 debian rtkit-daemon[744]: Supervising 5 threads of 2 processes of 2 users.
+Oct 08 23:28:54 debian rtkit-daemon[744]: Supervising 5 threads of 2 processes of 2 users.
+Oct 08 23:28:54 debian rtkit-daemon[744]: Successfully made thread 964 of process 933 owned by '1000' RT at priority 5.
+Oct 08 23:28:54 debian rtkit-daemon[744]: Supervising 6 threads of 2 processes of 2 users.
+Oct 08 23:28:55 debian dbus-daemon[485]: [system] Activating service name='org.mate.SettingsDaemon.DateTimeMechanism' requested by ':1.45' (uid=1000 pid=1130 comm="/usr/lib/mate-panel/clock-applet") (using servicehelper)
+Oct 08 23:28:55 debian polkitd[487]: Registered Authentication Agent for unix-session:2 (system bus name :1.44 [/usr/libexec/polkit-mate-authentication-agent-1], object path /org/mate/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Oct 08 23:28:55 debian dbus-daemon[485]: [system] Successfully activated service 'org.mate.SettingsDaemon.DateTimeMechanism'
+Oct 08 23:28:56 debian rtkit-daemon[744]: Supervising 3 threads of 1 processes of 2 users.
+Oct 08 23:28:56 debian rtkit-daemon[744]: Supervising 3 threads of 1 processes of 2 users.
+Oct 08 23:28:56 debian rtkit-daemon[744]: Supervising 3 threads of 1 processes of 2 users.
+Oct 08 23:28:56 debian dbus-daemon[485]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.48' (uid=1000 pid=1120 comm="mate-power-manager")
+Oct 08 23:28:56 debian systemd[1]: Starting upower.service - Daemon for power management...
+Oct 08 23:28:56 debian dbus-daemon[485]: [system] Successfully activated service 'org.freedesktop.UPower'
+Oct 08 23:28:56 debian systemd[1]: Started upower.service - Daemon for power management.
+Oct 08 23:28:56 debian NetworkManager[498]: <info>  [1728422936.4093] agent-manager: agent[8fb773b8ec7ed374,:1.46/org.freedesktop.nm-applet/1000]: agent registered
+Oct 08 23:29:03 debian systemd[1]: session-c1.scope: Deactivated successfully.
+Oct 08 23:29:03 debian systemd[1]: Stopped session-c1.scope - Session c1 of User lightdm.
+Oct 08 23:29:03 debian systemd[1]: session-c1.scope: Consumed 3.180s CPU time.
+Oct 08 23:29:03 debian systemd-logind[488]: Removed session c1.
+Oct 08 23:29:12 debian NetworkManager[498]: <info>  [1728422952.8731] dhcp6 (enp0s3): state changed new lease, address=2800:810:458:173:8879:c1b2:f8ba:ceb5
+Oct 08 23:29:12 debian avahi-daemon[483]: Registering new address record for 2800:810:458:173:8879:c1b2:f8ba:ceb5 on enp0s3.*.
+Oct 08 23:29:13 debian systemd[1]: Stopping user@108.service - User Manager for UID 108...
+Oct 08 23:29:13 debian systemd[725]: Activating special unit exit.target...
+Oct 08 23:29:13 debian systemd[725]: Stopped target default.target - Main User Target.
+Oct 08 23:29:13 debian systemd[725]: Stopping at-spi-dbus-bus.service - Accessibility services bus...
+Oct 08 23:29:13 debian systemd[725]: Stopping dbus.service - D-Bus User Message Bus...
+Oct 08 23:29:13 debian systemd[725]: Stopping gvfs-daemon.service - Virtual filesystem service...
+Oct 08 23:29:13 debian systemd[725]: Stopped dbus.service - D-Bus User Message Bus.
+Oct 08 23:29:13 debian systemd[1]: run-user-108-gvfs.mount: Deactivated successfully.
+Oct 08 23:29:13 debian systemd[725]: Stopped gvfs-daemon.service - Virtual filesystem service.
+Oct 08 23:29:13 debian systemd[725]: Stopped at-spi-dbus-bus.service - Accessibility services bus.
+Oct 08 23:29:13 debian systemd[725]: Removed slice session.slice - User Core Session Slice.
+Oct 08 23:29:13 debian systemd[725]: session.slice: Consumed 1.145s CPU time.
+Oct 08 23:29:13 debian systemd[725]: Stopped target basic.target - Basic System.
+Oct 08 23:29:13 debian systemd[725]: Stopped target paths.target - Paths.
+Oct 08 23:29:13 debian systemd[725]: Stopped target sockets.target - Sockets.
+Oct 08 23:29:13 debian systemd[725]: Stopped target timers.target - Timers.
+Oct 08 23:29:13 debian systemd[725]: Closed dbus.socket - D-Bus User Message Bus Socket.
+Oct 08 23:29:13 debian systemd[725]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+Oct 08 23:29:13 debian systemd[725]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Oct 08 23:29:13 debian systemd[725]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Oct 08 23:29:13 debian systemd[725]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct 08 23:29:13 debian systemd[725]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Oct 08 23:29:13 debian systemd[725]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Oct 08 23:29:13 debian systemd[725]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Oct 08 23:29:13 debian systemd[725]: Closed pulseaudio.socket - Sound System.
+Oct 08 23:29:13 debian systemd[725]: Removed slice app.slice - User Application Slice.
+Oct 08 23:29:13 debian systemd[725]: Reached target shutdown.target - Shutdown.
+Oct 08 23:29:13 debian systemd[725]: Finished systemd-exit.service - Exit the Session.
+Oct 08 23:29:13 debian systemd[725]: Reached target exit.target - Exit the Session.
+Oct 08 23:29:13 debian systemd[1]: user@108.service: Deactivated successfully.
+Oct 08 23:29:13 debian systemd[1]: Stopped user@108.service - User Manager for UID 108.
+Oct 08 23:29:13 debian systemd[1]: user@108.service: Consumed 1.265s CPU time.
+Oct 08 23:29:13 debian systemd[1]: Stopping user-runtime-dir@108.service - User Runtime Directory /run/user/108...
+Oct 08 23:29:14 debian systemd[1]: run-user-108.mount: Deactivated successfully.
+Oct 08 23:29:14 debian systemd[1]: user-runtime-dir@108.service: Deactivated successfully.
+Oct 08 23:29:14 debian systemd[1]: Stopped user-runtime-dir@108.service - User Runtime Directory /run/user/108.
+Oct 08 23:29:14 debian systemd[1]: Removed slice user-108.slice - User Slice of UID 108.
+Oct 08 23:29:14 debian systemd[1]: user-108.slice: Consumed 4.457s CPU time.
+Oct 08 23:29:14 debian dbus-daemon[485]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.9' (uid=0 pid=498 comm="/usr/sbin/NetworkManager --no-daemon")
+Oct 08 23:29:14 debian systemd[1]: Starting NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service...
+Oct 08 23:29:14 debian dbus-daemon[485]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct 08 23:29:14 debian systemd[1]: Started NetworkManager-dispatcher.service - Network Manager Script Dispatcher Service.
+Oct 08 23:29:17 debian systemd-timesyncd[286]: Timed out waiting for reply from [2606:4700:f1::123]:123 (2.debian.pool.ntp.org).
+Oct 08 23:29:24 debian systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 08 23:29:24 debian systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Oct 08 23:29:28 debian systemd-timesyncd[286]: Timed out waiting for reply from [2606:4700:f1::1]:123 (2.debian.pool.ntp.org).
+Oct 08 23:29:28 debian systemd-timesyncd[286]: Contacted time server 168.96.251.195:123 (2.debian.pool.ntp.org).
+Oct 08 23:29:28 debian systemd-timesyncd[286]: Initial clock synchronization to Tue 2024-10-08 17:29:28.360337 EDT.
+Oct 08 23:30:01 debian CRON[1500]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 08 23:30:01 debian CRON[1501]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Oct 08 23:30:01 debian CRON[1500]: pam_unix(cron:session): session closed for user root
+Oct 08 23:30:27 debian systemd[1]: anacron.service - Run anacron jobs was skipped because of an unmet condition check (ConditionACPower=true).
+Oct 08 23:39:01 debian CRON[1574]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 08 23:39:01 debian CRON[1575]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 08 23:39:01 debian CRON[1574]: pam_unix(cron:session): session closed for user root
+Oct 08 23:39:27 debian systemd[1]: Starting phpsessionclean.service - Clean php session files...
+Oct 08 23:39:27 debian systemd[1]: phpsessionclean.service: Deactivated successfully.
+Oct 08 23:39:27 debian systemd[1]: Finished phpsessionclean.service - Clean php session files.
+Oct 08 23:40:59 debian sshd[1650]: Accepted password for root from 192.168.0.134 port 45623 ssh2
+Oct 08 23:40:59 debian sshd[1650]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+Oct 08 23:40:59 debian systemd[1]: Created slice user-0.slice - User Slice of UID 0.
+Oct 08 23:40:59 debian systemd[1]: Starting user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+Oct 08 23:40:59 debian systemd-logind[488]: New session 6 of user root.
+Oct 08 23:40:59 debian (systemd)[1653]: pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+Oct 08 23:40:59 debian systemd[1]: Finished user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+Oct 08 23:40:59 debian systemd[1]: Starting user@0.service - User Manager for UID 0...
+Oct 08 23:40:59 debian systemd[1653]: Queued start job for default target default.target.
+Oct 08 23:40:59 debian systemd[1653]: Created slice app.slice - User Application Slice.
+Oct 08 23:40:59 debian systemd[1653]: Created slice session.slice - User Core Session Slice.
+Oct 08 23:40:59 debian systemd[1653]: Reached target paths.target - Paths.
+Oct 08 23:40:59 debian systemd[1653]: Reached target timers.target - Timers.
+Oct 08 23:40:59 debian systemd[1653]: Starting dbus.socket - D-Bus User Message Bus Socket...
+Oct 08 23:40:59 debian systemd[1653]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+Oct 08 23:40:59 debian systemd[1653]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Oct 08 23:40:59 debian systemd[1653]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+Oct 08 23:40:59 debian systemd[1653]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Oct 08 23:40:59 debian systemd[1653]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+Oct 08 23:40:59 debian systemd[1653]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Oct 08 23:40:59 debian systemd[1653]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+Oct 08 23:40:59 debian systemd[1653]: pulseaudio.socket - Sound System was skipped because of an unmet condition check (ConditionUser=!root).
+Oct 08 23:40:59 debian systemd[1653]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+Oct 08 23:40:59 debian systemd[1653]: Reached target sockets.target - Sockets.
+Oct 08 23:40:59 debian systemd[1653]: Reached target basic.target - Basic System.
+Oct 08 23:40:59 debian systemd[1]: Started user@0.service - User Manager for UID 0.
+Oct 08 23:40:59 debian systemd[1]: Started session-6.scope - Session 6 of User root.
+Oct 08 23:40:59 debian systemd[1653]: pulseaudio.service - Sound Service was skipped because of an unmet condition check (ConditionUser=!root).
+Oct 08 23:40:59 debian systemd[1653]: Reached target default.target - Main User Target.
+Oct 08 23:40:59 debian systemd[1653]: Startup finished in 132ms.
+Oct 08 23:40:59 debian sshd[1650]: pam_env(sshd:session): deprecated reading of user environment enabled
+Oct 08 23:43:59 debian systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+Oct 08 23:44:00 debian systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Oct 08 23:44:00 debian systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+Oct 08 23:44:00 debian systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+Oct 08 23:57:51 debian NetworkManager[498]: <info>  [1728424671.0885] dhcp6 (enp0s3): state changed new lease, address=2800:810:458:173:8879:c1b2:f8ba:ceb5
+Oct 08 23:58:38 debian NetworkManager[498]: <info>  [1728424718.3542] dhcp4 (enp0s3): state changed new lease, address=192.168.0.137
+Oct 08 23:59:59 debian systemd[1]: Starting fstrim.service - Discard unused blocks on filesystems from /etc/fstab...
+Oct 09 00:00:00 debian systemd[1]: fstrim.service: Deactivated successfully.
+Oct 09 00:00:00 debian systemd[1]: Finished fstrim.service - Discard unused blocks on filesystems from /etc/fstab.
+Oct 09 00:03:07 debian kernel: usb 2-1: USB disconnect, device number 2
+Oct 09 00:03:07 debian kernel: usb 2-1: new full-speed USB device number 3 using ohci-pci
+Oct 09 00:03:08 debian kernel: usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Oct 09 00:03:08 debian kernel: usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Oct 09 00:03:08 debian kernel: usb 2-1: Product: USB Tablet
+Oct 09 00:03:08 debian kernel: usb 2-1: Manufacturer: VirtualBox
+Oct 09 00:03:08 debian kernel: input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0002/input/input9
+Oct 09 00:03:08 debian kernel: hid-generic 0003:80EE:0021.0002: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Oct 09 00:03:08 debian mtp-probe[1707]: checking bus 2, device 3: "/sys/devices/pci0000:00/0000:00:06.0/usb2/2-1"
+Oct 09 00:03:08 debian mtp-probe[1707]: bus: 2, device: 3 was not an MTP device
+Oct 09 00:03:08 debian mtp-probe[1712]: checking bus 2, device 3: "/sys/devices/pci0000:00/0000:00:06.0/usb2/2-1"
+Oct 09 00:03:08 debian mtp-probe[1712]: bus: 2, device: 3 was not an MTP device
